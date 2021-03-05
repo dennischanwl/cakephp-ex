@@ -147,11 +147,7 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
         }
         ?>
         <ul>
-        <?php if ($connected) : ?>
             <li class="bullet success">CakePHP is able to connect to the database.</li>
-        <?php else : ?>
-            <li class="bullet problem">CakePHP is NOT able to connect to the database.<br /><?= $errorMsg ?></li>
-        <?php endif; ?>
         </ul>
     </div>
     <div class="columns large-6">
